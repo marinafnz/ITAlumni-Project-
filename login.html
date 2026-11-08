@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/IMG/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/IMG/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/IMG/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/IMG/site.webmanifest">
+    <link rel="stylesheet" href="/CSS/index.css">
+
+    <title>ITAcademy - Login</title>
 </head>
-<body>
-    
+<body id="login-body">
 
+    <main id="login-main">    
+    <h1>Crea un compte</h1>
+    <p id="subtitle">Uneix-te a nosaltres per connectar-te i compartir oportunitats!</p>
 
+        <section id="login-data">
+<div class="login-input-box">
 
+        <img src="/IMG/Icons/user_profile.png" alt="User avatar">
+        <input type="text" id="name" placeholder="Posa el teu nom">
 
+</div>
+<div class="login-input-box">
+
+        <img src="/IMG/Icons/user_profile.png" alt="User avatar">
+        <input type="text"  id="last-name" placeholder="Posa el teu cognom">        
+
+</div>
+<div class="login-input-box">
+
+        <img src="/IMG/Icons/mail.png" alt="Email box">    
+        <input type="email"  id="email" placeholder="El teu correu electrònic">
+
+</div>
+<div class="login-input-box">
+
+        <img src="/IMG/Icons/password.png" alt="User password">
+        <input type="password"  id="passw" placeholder="Crea una contrasenya">
+
+</div>
+
+<div  id="login-checkbox">
+    <input type="checkbox" >
+    <label for="checkbox">Accepto els Termes i Condicions</label>
+</div>
+        </section>
+    <button class="login-color_button">Registra’t</button>
+
+  <hr>
+
+    <section id="social-login">
+            <button> <img src="/IMG/Icons/apple.png" alt="Logo de Apple" class="login-logo"> Continua amb Apple</button>   
+            <button> <img src="/IMG/google.svg" alt="Logo de Google" class="login-logo">  Continua amb Google</button>
+            <button id="login-facebook"> <img src="/IMG/facebook.png" alt="Logo de Facebook." class="login-logo"> Continua amb Facebook</button>   
+
+        </section>
+            <div id="login-register">
+            <p>Ja t'has registrat?</p>
+            <p class="fucsia">Inicia sessió</p>
+            </div>
+
+    </main> 
 
 </body>
 </html>
