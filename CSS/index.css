@@ -44,7 +44,7 @@ body {
     font-weight: 300px;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 600px) {
     body {
         display: block;
         margin: 0px;
@@ -494,7 +494,7 @@ hr {
     background-color: rgba(241, 248, 253, 1);
 }
 
-@media (min-width: 780px) {
+@media (min-width: 600px) {
 
 #login-body {
     background-color: rgba(255, 255, 255, 1) ;
@@ -520,8 +520,8 @@ hr {
 
 #x-body {
     width: 100%;
-    margin: 0 ;
-    padding-bottom: 24px;
+    padding-bottom: 60px;
+    margin: 0;
 }
 
 #x-header img , #x-nav-bottom img{
@@ -548,10 +548,12 @@ hr {
 }
 
 #x-cards {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    margin: 50px 10px 50px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 100%;
 }
 
 .x-card {
@@ -606,6 +608,8 @@ hr {
     border: solid 1px  rgba(243, 244, 246, 1) ;
     border-left: none;
     border-right: none;
+    padding-top: 20px;
+    background-color: white;
     }
 
 .x-bottom-div a {
@@ -615,12 +619,9 @@ hr {
 }
 
 
+@media (min-width: 600px) {
 
-
-
-@media (min-width: 780px) {
-
-#mobile , #x-nav-bottom , .x-card img{
+#mobile , #x-nav-bottom {
     display: none;
 }
 
@@ -689,11 +690,30 @@ hr {
 }
 
 #x-cards {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(416px, 1fr));
     justify-content: space-between;
     align-items: center;
     margin: 15px;
 }
 
 }
+
+/* JOB PAGE */
+
+#j-body {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.j-button {
+    border-radius: 6px;
+    background-color: white;
+    border: solid 1px rgba(206, 10, 134, 1)  ;
+    color: rgba(206, 10, 134, 1) ;
+}
+
+
+
+
