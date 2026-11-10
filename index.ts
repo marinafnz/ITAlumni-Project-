@@ -1,3 +1,5 @@
+export {}
+
 const search = document.getElementById("input") as HTMLInputElement;
 
 const cards = document.querySelectorAll("x-card") as NodeListOf<HTMLElement>;
