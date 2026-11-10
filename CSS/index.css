@@ -572,7 +572,7 @@ hr {
     margin: 15px;
 }
 
-#x-cards .x-card .name {
+.name {
     font-weight: bold;
 }
 
@@ -598,14 +598,13 @@ hr {
 }
 
 #x-nav-bottom {
+    margin: 0;
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 90%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border: solid 1px  rgba(243, 244, 246, 1) ;
     border-left: none;
     border-right: none;
@@ -715,6 +714,52 @@ hr {
     color: rgba(206, 10, 134, 1) ;
 }
 
+/* INICI PAGE */
+
+#h-body {
+   margin: 0 ;
+   width: 100%;
+   }
+
+#h-body header {
+    width: 100%;
+    margin: 0;
+}
+
+.h-card {
+    border: solid 1px rgba(243, 244, 246, 1);
+    padding: 10px;
+    font-size: 14px;
+    margin: 5px;
+    width: 100%;
+}
+
+.h-card img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.h-cards {
+    width: 100% ;
+    margin: 10px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.h-button {
+    border-radius: 6px;
+    background-color: white;
+    border: solid 1px rgba(206, 10, 134, 1)  ;
+    color: rgba(206, 10, 134, 1) ;
+    width: 100%; 
+}
 
 
+@media (min-width: 600px) {
 
+    #h-header, #h-body {
+        display: none;
+    }
+
+}
