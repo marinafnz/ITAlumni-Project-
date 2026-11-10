@@ -3,6 +3,11 @@
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: grey;
+}
+
 body {
     margin: clamp(40px, 5vw, 70px);
     font-family: "Source Sans 3", sans-serif;
@@ -12,7 +17,6 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 10rem;
-
 }
 
 #logo-nav {
@@ -20,8 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     width: clamp(240px, 40vw, 220px);
-    height: auto;
-    
+    height: auto;    
 }
 
 .colorButton {
@@ -105,8 +108,6 @@ body {
         
     }
     
-    
-
     .planeButton {
         display: flex;
         width: auto;
@@ -142,17 +143,17 @@ body {
         border: solid 2px rgb(248, 247, 247);
     }
 
-    #navBar li {
+     a {
         position: relative;
         list-style: none;
     }
 
-    #navBar li:hover {
+     a:hover {
       color: rgba(223, 28, 90, 1);
       font-weight: bold;
     }
 
-    #navBar li::after{
+     a::after{
     content: '';
     position: absolute;
     color: rgba(223, 28, 90, 1) ;
@@ -167,7 +168,7 @@ body {
     transition: 0.3s ease-in-out;
     }
 
-    #navBar li:hover::after{
+     a:hover::after{
     transform: scaleX(1);
 }
 
@@ -546,15 +547,16 @@ hr {
 
 #x-main {
     font-size: 12px;
+
 }
 
 #x-cards {
     width: 100%;
     margin: 50px 10px 50px 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
-    width: 100%;
 }
 
 .x-card {
@@ -566,6 +568,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 14px;
 }
 
 .x-card img {
@@ -583,6 +586,7 @@ hr {
 }
 
 .filter-box {
+    width: auto;
     display: flex;
     background-color: rgba(243, 244, 246, 1);
     border-radius: 6px;
