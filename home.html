@@ -1,18 +1,77 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="ca">
+<head id="h-head"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>ITAlumni - Inici </title>
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/IMG/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/IMG/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/IMG/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/IMG/site.webmanifest">
+
 </head>
-<body>
-    
+<body id="h-body">
+    <header>
+    <nav>
+        <div id="mobile">
+            <img src="/IMG/arrow-left.svg" alt="Fletxa esquerra">
+            <p>Inici</p>
+            <div class="mobile-right">
+                <img src="/IMG/align-bottom.svg" alt="Quin botó">
+                <img src="/IMG/Photo-avatar.svg" alt="Usuari actual">
+            </div>
+        </div>
+    </nav>
+    </header>
 
+    <main>
+    <section id="x-filter">
+            <div class="filter-box">
 
+                <img src="/IMG/search.svg" alt="Cerca">
+                <input type="text" id="input" placeholder="Search...">
 
+            </div>
 
-
-
-    
+    </section>
+    <section class="h-cards">
+ <div class="h-card">
+        <img src="/IMG/Job-Page/Image 135 (5).svg" alt="Treballando" class="j-pic">
+        <p class="name">Networking</p>
+        <p class="x-grey">Connect with professionals in your field.</p>
+        <button class="h-button">Explore</button>
+    </div>
+    <div class="h-card">
+        <img src="/IMG/Job-Page/Image 135.svg" alt="Treballando" class="j-pic">
+        <p class="name">Job Opportunities</p>
+        <p class="x-grey">Discover openings tailored to your skills.</p>
+        <button class="h-button">Search Jobs</button>
+    </div>
+            
+    </section>
+    <nav id="x-nav-bottom">
+        <div class="x-bottom-div">
+         <img src="/IMG/Home.svg" alt="Home">
+         <a href="index.html" > Inici</a>
+        </div>
+        <div class="x-bottom-div">
+         <img src="/IMG/Icons/networking.png" alt="Xarxa">
+         <a href="xarxa.html">  Xarxa</a>
+        </div>
+        <div class="x-bottom-div">
+         <img src="/IMG/Briefcase 24.svg" alt="Maletí">
+        <a href="job.html">Treball</a>
+        </div>
+        <div class="x-bottom-div">
+            <img src="/IMG/Icons/user_profile.png" alt="Perfil">
+            <a>Perfil</a>
+        </div>        
+    </nav>
+</main>    
 </body>
 </html>
