@@ -195,9 +195,10 @@ body {
     #joinUs, #opinions{
         margin: 50px 10px 50px 10px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
         gap: 10px;
-        width: 100%;
+        width: auto;
+        padding: 30px;
     }
     .textBox{
         display: flex;
@@ -207,7 +208,7 @@ body {
         text-align: center;
         padding: 10px;
         height: auto;
-        width: 371px;
+        width: auto;
         margin: 10px;
         border-radius: 16px;
         border: solid 1px ;
@@ -240,7 +241,7 @@ body {
         gap: 10px;
         padding: 15px;
         height: auto;
-        width: 371px;
+        width: auto;
         margin: 0px;
         border-radius: 16px;
         border: solid 1px ;
