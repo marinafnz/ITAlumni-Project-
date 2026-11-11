@@ -47,7 +47,20 @@ body {
     font-weight: 300px;
 }
 
+#guest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(206, 10, 134, 1);
+}
+
 @media (min-width: 768px) {
+    #guest{
+        display: none;
+    }
+
     body {
         display: block;
         margin: 0px;
