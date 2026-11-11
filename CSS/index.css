@@ -3,7 +3,7 @@
     display: none;
 }
 
-a {
+ul a {
     text-decoration: none;
     color: grey;
 }
@@ -47,7 +47,7 @@ body {
     font-weight: 300px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     body {
         display: block;
         margin: 0px;
@@ -143,17 +143,17 @@ body {
         border: solid 2px rgb(248, 247, 247);
     }
 
-     a {
+    ul a {
         position: relative;
         list-style: none;
     }
 
-     a:hover {
+    ul a:hover {
       color: rgba(223, 28, 90, 1);
       font-weight: bold;
     }
 
-     a::after{
+    ul a::after{
     content: '';
     position: absolute;
     color: rgba(223, 28, 90, 1) ;
@@ -349,7 +349,6 @@ body {
     display: none;
 }
 
-
 #login-body {
     margin-top: 0 ;
     display: flex;
@@ -423,11 +422,9 @@ hr {
     gap: 10px;
 }
 
-
 #login-checkbox input {
     accent-color:rgba(206, 10, 134, 1) ;
 }
-
 
 .fucsia {
     color: rgba(206, 10, 134, 1);
@@ -495,7 +492,7 @@ hr {
     background-color: rgba(241, 248, 253, 1);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 
 #login-body {
     background-color: rgba(255, 255, 255, 1) ;
@@ -623,7 +620,7 @@ hr {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 
 #mobile , #x-nav-bottom {
     display: none;
@@ -760,7 +757,7 @@ hr {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 
     #h-header, #h-body {
         display: none;
