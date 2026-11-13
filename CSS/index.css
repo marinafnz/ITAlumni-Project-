@@ -556,12 +556,11 @@ hr {
 }
 
  .mobile {
-    width: 100%;
-    margin: 0;
+    width: auto;
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
  }
 
 #x-main {
@@ -637,6 +636,8 @@ hr {
     }
 
 .x-bottom-div a {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: black;
     padding-bottom: 10px;
@@ -673,10 +674,7 @@ hr {
 #x-filter {
     width: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+    flex-direction: column;}
 
 .right {
     display: flex;
@@ -734,9 +732,14 @@ hr {
 
 .j-filter{
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: grey;
+}
+
+.j-mobile {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .j-button {
@@ -746,7 +749,7 @@ hr {
     color: rgba(206, 10, 134, 1) ;
 }
 
-@media min-width(600px){
+@media (min-width: 600px){
     .j-filter{
         display: none
     }
