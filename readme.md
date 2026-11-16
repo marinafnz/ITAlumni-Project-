@@ -1,48 +1,46 @@
 # ITAlumni
 
-Plataforma web diseñada para conectar y potenciar la comunidad global de exalumnos de IT Academy. El proyecto traslada de forma fiel el sistema de diseño planteado en Figma hacia una interfaz web funcional, intuitiva y accesible.
+Web platform designed to connect and empower the global community of IT Academy alumni. The project faithfully translates the design system created in Figma into a functional, intuitive, and accessible web interface.
 
-**Demo en GitHub Pages:** (https://marinafnz.github.io/ITAlumni/)
-
----
-
-## Características y vistas principales
-
-- **Welcome y Autenticación (`index.html`, `login.html`):** Pantalla de bienvenida con presentación de la plataforma y flujo de acceso o registro para usuarios e invitados.
-- **Inicio (`home.html`):** Panel principal con acceso rápido a las secciones clave de la comunidad y buscador integrado.
-- **Red de contactos (`xarxa.html`):** Espacio dedicado al networking y conexión entre profesionales del sector.
-- **Portal de empleo (`job.html`):** Listado de ofertas laborales filtrables y adaptadas a los perfiles técnicos del alumnado.
+**GitHub Pages Demo:** (https://marinafnz.github.io/ITAlumni/)
 
 ---
 
-## Tecnologías y arquitectura aplicada
+## Key Features and Views
 
-- **HTML5** Estructuración limpia del documento mediante etiquetas semánticas (`<header>`, `<main>`, `<section>`, `<article>`) para mejorar la accesibilidad y el mantenimiento del DOM.
-- **CSS3 (Metodología Mobile-First):**
-  - Maquetación basada en especificaciones de diseño en Figma.
-  - Uso de Flexbox y grid para la distribución espacial y control de flujo de componentes.
-  - Implementación de Media Queries (`@media`) y control de límites de ancho (`min-width`) para garantizar la estabilidad visual en resoluciones de escritorio[cite: 3].
-- **JavaScript / TypeScript (`filter.js`, `filter.ts`):** Lógica interactiva orientada al filtrado dinámico de contenidos[cite: 3].
-- **Control de versiones y despliegue:** Gestión de código con Git (flujo de trabajo mediante ramas feature) y despliegue continuo en GitHub Pages[cite: 3].
+- **Welcome & Authentication (`index.html`, `login.html`):** Welcome screen introducing the platform along with a login and registration flow for users and guests.
+- **Home (`home.html`):** Main dashboard with quick access to key community sections and an integrated search bar.
+- **Network (`xarxa.html`):** Dedicated space for networking and connecting with industry professionals.
+- **Job Portal (`job.html`):** Filterable job listings tailored to the technical profiles of students and alumni.
 
 ---
 
-## Estructura de los archivos del proyecto
+## Technologies & Applied Architecture
+
+- **HTML5:** Clean document structuring using semantic tags (`<header>`, `<main>`, `<section>`, `<article>`) to improve accessibility and DOM maintainability.
+- **CSS3 (Mobile-First Methodology):**
+  - Layout built according to Figma design specifications.
+  - Use of Flexbox and Grid for spatial distribution and component flow control.
+  - Implementation of Media Queries (`@media`) and width limit controls (`min-width`) to ensure visual stability on desktop resolutions.
+- **JavaScript / TypeScript (`filter.js`, `filter.ts`):** Interactive logic focused on dynamic content filtering.
+- **Version Control & Deployment:** Code management with Git (feature branch workflow) and continuous deployment on GitHub Pages.
+
+---
+
+## Project File Structure
 
 ```text
-
 ├── Src/
 │   ├── CSS/
-│   │   └── index.css       # Hoja de estilos principal (Mobile-First y Desktop)
-│   ├── IMG/                # Recursos gráficos, iconos e imágenes
-│   ├── filter.ts           # Lógica de filtrado en TypeScript
-│   ├── filter.js           # Código compilado en JavaScript
-│   ├── index.html          # Página de bienvenida
-│   ├── login.html          # Acceso y registro
-│   ├── home.html           # Vista principal (mobile)
-│   ├── xarxa.html          # Sección de Networking
-│   └── job.html            # Portal de empleo
-├── package.json            # Configuración de dependencias del proyecto
-└── README.md               # Documentación del proyecto
-
+│   │   └── index.css       # Main stylesheet (Mobile-First and Desktop)
+│   ├── IMG/                # Graphic assets, icons, and images
+│   ├── filter.ts           # Filtering logic in TypeScript
+│   ├── filter.js           # Compiled JavaScript code
+│   ├── index.html          # Welcome page
+│   ├── login.html          # Login and registration
+│   ├── home.html           # Main view (mobile)
+│   ├── xarxa.html          # Networking section
+│   └── job.html            # Job portal
+├── package.json            # Project dependencies configuration
+└── README.md               # Project documentation
 ```
