@@ -523,7 +523,7 @@ hr {
     font-optical-sizing: auto;
     font-style: normal;
     display: block;
-    background-image: url(/IMG/bg-login.svg);
+    background-image: url(../IMG/bg-login.svg);
     background-size: cover;
 }
 
@@ -644,7 +644,7 @@ hr {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
 
 .mobile , #x-nav-bottom {
     display: none;
@@ -753,6 +753,16 @@ hr {
     .j-filter{
         display: none
     }
+
+    #activity{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px;
+        padding: 10px;
+
+    }
+
 }
 
 /* INICI PAGE */
