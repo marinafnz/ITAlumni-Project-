@@ -29,6 +29,7 @@ Plataforma web diseñada para conectar y potenciar la comunidad global de exalum
 
 ## Estructura de los archivos del proyecto
 
+```text
 
 ├── Src/
 │   ├── CSS/
@@ -43,3 +44,5 @@ Plataforma web diseñada para conectar y potenciar la comunidad global de exalum
 │   └── job.html            # Portal de empleo
 ├── package.json            # Configuración de dependencias del proyecto
 └── README.md               # Documentación del proyecto
+
+```
