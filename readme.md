@@ -17,12 +17,12 @@ Web platform designed to connect and empower the global community of IT Academy 
 
 ## Technologies & Applied Architecture
 
-- **HTML5:** Clean document structuring using semantic tags (`<header>`, `<main>`, `<section>`, `<article>`) to improve accessibility and DOM maintainability.
+- **HTML5:** Clean document structuring using semantic tags to improve accessibility and DOM maintainability.
 - **CSS3 (Mobile-First Methodology):**
   - Layout built according to Figma design specifications.
   - Use of Flexbox and Grid for spatial distribution and component flow control.
   - Implementation of Media Queries (`@media`) and width limit controls (`min-width`) to ensure visual stability on desktop resolutions.
-- **JavaScript / TypeScript (`filter.js`, `filter.ts`):** Interactive logic focused on dynamic content filtering.
+- **JavaScript / TypeScript :** Interactive logic focused on dynamic content filtering.
 - **Version Control & Deployment:** Code management with Git (feature branch workflow) and continuous deployment on GitHub Pages.
 
 ---
