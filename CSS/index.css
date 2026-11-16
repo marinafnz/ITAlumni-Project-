@@ -728,7 +728,7 @@ hr {
 }
 
 #j-body {
-    margin: 0;
+    margin: 10px;
     width: 100%;
     padding-bottom: 60px;
 }
@@ -754,6 +754,9 @@ hr {
 }
 
 @media (min-width: 600px){
+    
+
+    
     .j-filter{
         display: none
     }
