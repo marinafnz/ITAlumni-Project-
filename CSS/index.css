@@ -535,7 +535,7 @@ hr {
 
 /* XARXA PAGE  */
 
-#x-header .right , .left, .x-message , .mobile {
+#x-header .right , .left, .x-message , .mobile , #activity {
     display: none
 }
 
@@ -674,7 +674,7 @@ hr {
 #x-filter {
     width: auto;
     display: flex;
-    flex-direction: column;}
+    justify-content: space-between ;}
 
 .right {
     display: flex;
@@ -719,13 +719,19 @@ hr {
     margin: 15px;
 }
 
+    #activity{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px;
+        padding: 10px;
+
+    }
+
 }
 
 /* JOB PAGE */
 
-#activity {
-    display: none;
-}
 
 #j-body {
     margin: 10px;
@@ -761,14 +767,7 @@ hr {
         display: none
     }
 
-    #activity{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 15px;
-        padding: 10px;
 
-    }
 
 }
 
