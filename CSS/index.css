@@ -723,6 +723,10 @@ hr {
 
 /* JOB PAGE */
 
+#activity {
+    display: none;
+}
+
 #j-body {
     margin: 0;
     width: 100%;
