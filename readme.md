@@ -2,6 +2,16 @@
 
 Web platform designed to connect and empower the global community of IT Academy alumni. The project faithfully translates the design system created in Figma into a functional, intuitive, and accessible web interface.
 
+## How to Run the Project 
+
+1. **Download or clone this repository:**
+   ```bash
+   git clone [https://github.com/marinafnz/ITAlumni-Project-.git](https://github.com/marinafnz/ITAlumni-Project-.git)
+
+2. **Install dependencies**
+
+    Run in your terminal: npm install
+
 **GitHub Pages Demo:** (https://marinafnz.github.io/ITAlumni/)
 
 ---
